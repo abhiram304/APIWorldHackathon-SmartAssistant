@@ -12,12 +12,7 @@ from flask import request
 @app.route('/')
 def index():
     return  render_template('start.html')
-
-@app.route('/profile')
-def index():
 	
-
-
 @app.route('/send')
 def send():
     args = request.args
