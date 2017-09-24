@@ -1,6 +1,6 @@
 #!flask/bin/python
 from flask import request, render_template, Flask
-import db, os, spark, sys, json
+import  os, sys, json
 import requests
 app = Flask(__name__)
 
@@ -25,4 +25,4 @@ def send():
     
 if __name__ == '__main__':
 	app.secret_key = os.urandom(12)
-	#app.run(debug=True)
+	app.run(debug=True)
