@@ -23,6 +23,7 @@ def send():
     response2 = messaging.message(phone_number, message, message_type)
     voice = VoiceClient(customer_id, api_key)
     response1 = voice.call(phone_number, message, message_type)
+    return "success"
     
 if __name__ == '__main__':
 	app.secret_key = os.urandom(12)
