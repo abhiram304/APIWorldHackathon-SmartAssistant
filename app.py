@@ -5,7 +5,8 @@ import requests
 app = Flask(__name__)
 
 from random import randint
-
+from telesign.messaging import MessagingClient
+from telesign.voice import VoiceClient
 
 @app.route('/')
 def index():
