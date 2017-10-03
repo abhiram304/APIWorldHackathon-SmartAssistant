@@ -19,7 +19,7 @@ def send():
     args = request.args
     customer_id = "2C1097F6-3917-4A53-9D38-C45A3C8ADD2B"
     api_key = "FTgHUVjcPWvgzCvtksi2v+tMLTAXbh5LLVEl1Wcl4NAtszxElZL4HS/ZwJqJufRkEmRpwUTwULxsZgL2c649vQ=="
-    phone_number = "14083389124"
+    phone_number = "16692628464"
     message = args['msg']
     message_type = "ARN"
     messaging = MessagingClient(customer_id, api_key)
